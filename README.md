@@ -48,3 +48,40 @@ AI, specifically a coding assistant, was utilized as a pair-programming partner 
 *   **Debugging**: Assisting in identifying and resolving bugs by analyzing code snippets and suggesting fixes.
 *   **Learning & Research**: Quickly getting information on library usage (e.g., `react-toastify` props, interfaces) and best practices without leaving the IDE.
 *   **Documentation**: Generating documentation, such as this `README.md` file, based on the project's context and high-level prompts.
+
+
+
+## Technical Requirements
+
+To run this project locally, you will need the following installed on your machine:
+
+*   **Node.js**: Version 23.x or later is recommended.
+*   **yarn**: A package manager for JavaScript.
+
+## Getting Started: How to Run Locally
+
+Follow these steps to get the development environment running:
+
+1.  **Clone the repository**:
+    ```bash
+    git clone <repository-url>
+    cd asap-roadworthys-poc
+    ```
+
+2.  **Install dependencies**:
+    ```bash
+    yarn install
+    ```
+
+3.  **Configure environment variables:**
+    *   Create a `.env` file in the root of the project.
+
+    ```
+    NEXT_API_URL=YOUR_API_URL
+    ```
+
+4.  **Run the development server**:
+    ```bash
+    yarn dev
+    ```
+    Once the server is running, open your browser and navigate to `http://localhost:3000` to see the application.
