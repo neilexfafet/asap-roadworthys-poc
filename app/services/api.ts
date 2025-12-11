@@ -2,7 +2,7 @@ import axios, { isCancel } from 'axios';
 
 // Create an Axios instance
 const api = axios.create({
-  baseURL: process.env.NEXT_API_URL || 'http://localhost:3001/api', // Your API base URL
+  baseURL: process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001/api', // Your API base URL
   headers: {
     'Accept': 'application/json',
     'Content-Type': 'application/json',
